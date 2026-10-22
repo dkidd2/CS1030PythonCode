@@ -1,0 +1,15 @@
+#name,hobby,birthyear,currentyear,txt,yeartxt places value in memory 
+
+name = input("enter your name:")
+print("hello" + name + "We'll calculate your age with the following info.")
+birth_year = int(input("enter birth year:"))
+current_year = int(input("enter current year"))
+
+#f-string allows the variables to be placed into string for whatever variable was placed in the memory
+# curly brackets are used to drag variables from memory and displays them within the string 
+txt = f"My name is {name}, I am {current_year - birth_year} years old"
+# the - in the f string containing currentyear and birthyear subtracts one from another to get my current age
+
+#print is the function which displays on the screen
+print(txt)
+
